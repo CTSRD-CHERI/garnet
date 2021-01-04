@@ -47,7 +47,7 @@ IRQ, where IRQ `n` is located at address `4 * n`.
 The project can be built with `make -C example` (or just `make` run from within
 the project directory).
 
-## Pre-built files
+## Pre-built files
 
 A pre-built shell is provided both for convenience and to allow
 interoperability (given partial bitstreams can only be loaded if built using
@@ -86,13 +86,13 @@ form:
 
 # Interfaces
 
-## Clocks
+## Clocks
 
 The shell provides a single 250 MHz clock.
 All interfaces with the shell and DDRs are synchronous with this clock.
 PLLs and MMCMs can be instantiated within the user logic as needed.
 
-## DDR4 AXI
+## DDR4 AXI
 
 Garnet, being built for the VCU118, provides access to 2 x 2 GiB of DDR4
 memory, exposed through the `DDRA_M_AXI` and `DDRB_M_AXI` interfaces.
