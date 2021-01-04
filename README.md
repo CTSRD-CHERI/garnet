@@ -1,4 +1,4 @@
-# Introduction
+# Introduction
 
 Garnet provides a framework for creating hardware designs that communicate with
 a host system over PCI using the Xilinx VCU118 evaluation board.
@@ -11,7 +11,7 @@ F1 instances, but simplified and adapted for the VCU118.
 
 Building and modifying the shell requires Vivado 2019.1.
 
-## Basic structure
+## Basic structure
 
 ```
 garnet_top
